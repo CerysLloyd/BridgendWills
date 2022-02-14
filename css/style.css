@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Lato:300');
+
+body {
+    font-family: Lato, sans-serif;
+    color: #401d35;
+    }   
+.card-title {
+    font-size: 2rem;
+}
+
+#welcome {
+    text-align: center;
+    font-family: Lato, sans-serif;
+    color:#401d35;
+    font-size: 4rem;
+}
+#reasons {
+    text-align: center;
+    font-family: Lato, sans-serif;
+    color:#401d35;
+    font-size: 4rem;
+}
+#whats {
+    text-align: center;
+    font-family: Lato, sans-serif;
+    color:#401d35;
+    font-size: 4rem;
+}
+#classes{
+    text-align: center;
+    font-family: Lato, sans-serif;
+    color:#401d35;
+    font-size: 4rem;
+}
+#contact-head {
+    text-align: center;
+    font-family: Lato, sans-serif;
+    color:#401d35;
+    font-size: 4rem;
+}
+#timetable-head {
+    text-align: center;
+    font-family: Lato, sans-serif;
+    color:#401d35;
+    font-size: 4rem;
+}
+#contact-us {
+    margin-bottom: 30%;
+}
+#footer-details {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#button-addon2 {
+    color: #fff;
+    background-color: #f72585;
+    font-family: Lato, sans-serif;
+    border-color: #f72585;
+}
+
+#button-addon2:hover {
+    background-color: #d20a64;
+    color: white;
+    transition: all 0.35s ease-in-out;
+}
+    /* ------------------------------------------------- content containers ----*/
+
+/* code taken from https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/a4b90d17e5c94220a0f83f00ce7fa606/4b3b1b062b01424997c8fd052e177b8e/?child=first*/
+.callout-container {
+        height: 600px;
+        width: 100%;
+    
+        background: url('../images/ladies-header.jpg') no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        position: relative;
+}
+.content-container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.reasons-container {
+    padding-top: 10px;
+    color: #310b25;
+}
+.grid-container {
+    max-width: 100%;
+}
+.whats-container {
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 100%;
+    color:#310b25
+}
+.testimonials-container {
+    padding-top: 20px;
+}
+.container-wrapper--purple {
+    background-color: #401d35;
+    color:#fff;
+    
+}
+.classes-container {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.contact-container {
+    padding-top: 0;
+}
+.container-footer {
+    width: 100%;
+}
+.map-container {
+ max-width: 100%;
+}
+.testimonials-h2 {
+    color:white;
+    text-transform: uppercase;
+}
+
+/* ------------------------------------------------- Nav Bar ----*/
+.navbar {
+   background-color: #401d35;
+    }
+#navbarNavDropdown {
+    background-color: #401d35;
+    color: #fff;
+    float: inline-end;
+}
+.navbar nav { 
+    font-family: lato, sans-serif;
+    color: #777777;
+    background-color: #401d35;
+}
+.nav-link {
+    float: inline-end;
+    color:#fff
+}
+.nav-link:hover {
+    color:  #f72585;
+    transition: all 0.35s ease-in-out;
+}
+.navbar-brand {
+    margin-top: 0px;
+    background-color: #401d35;
+    font-family: lato, sans-serif;
+    font-weight: 900;
+    color: #fff;
+}
+
+.navbar-brand:hover {
+    color:  #f72585;
+    transition: all 0.35s ease-in-out;
+}
+.navbar-toggler {
+    color: #fff;
+}
+
+.nav-item {
+    font-size: 1.5rem;
+    padding-right: 1rem;
+}
+/* ------------------------------------------------- jumbotron & Home Page----*/
+
+.header-logo {
+    margin-top: 60px;
+}
+.jumbotron-header {
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top:0px;
+}
+.jumbotron .lead {
+    color: #fff;
+    margin: 25px 0;
+}
+.jumbotron .lead-two {
+    color: #fff;
+    font-weight: bold;
+    margin: 25px 0;
+}
+.jumbotron small {
+    font-size: 70%;
+    font-style: italic;
+    color: #fff;
+}
+.jumbotron {
+    background-color:transparent;
+}
+.opaque-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+}
+/* ------------------------------------------------- Testimonials ----*/
+
+.rounded-circle {
+    margin-left: 25%;
+    margin-bottom: 5%;
+}
+
+/* ------------------------------------------------- buttons ----*/
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+.btn--pink {
+    color: #fff;
+    background-color: #f72585;
+}
+.btn--class {
+    margin-left: 0px;
+}
+.btn--pink:hover,
+.btn--pink:active,
+.btn--pink:focus,
+.btn--pink:active:focus {
+    background-color: #d20a64;
+    color: white;
+    transition: all 0.35s ease-in-out;
+}
+
+/* ------------------------------------------------- Footer ----*/
+footer {
+    background-color: #310b25;
+    color: #fafafa;
+    min-height: 120px;
+}
+.social-links {
+    padding-bottom: 15px;
+}
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12PX 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #401d35;
+    background: #fff;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+.social-links li a i:hover {
+    background: #f72585;
+}
+
+/* ------------------------------------------------- Classes page and timetable ----*/
+/*Credit: Css taken from: https://www.bootdey.com/snippets/view/time-table#html and edited for this project ----*/
+.bg-light-gray {
+    background-color: #f7f7f7;
+}
+.table-bordered thead td, .table-bordered thead th {
+    border-bottom-width: 2px;
+}
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+}
+.table-bordered td, .table-bordered th {
+    border: 1px solid #dee2e6;
+}
+.bg-purple.box-shadow {
+    box-shadow: 0px 5px 0px 0px#401d35
+}
+.bg-pink.box-shadow {
+    box-shadow: 0px 5px 0px 0px #f72585
+}
+.bg-purple {
+    background-color: #401d35
+}
+.bg-pink {
+    background-color:  #f72585
+}
+.padding-15px-lr {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.padding-5px-tb {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.margin-10px-bottom {
+    margin-bottom: 10px;
+}
+.border-radius-5 {
+    border-radius: 5px;
+}
+.margin-10px-top {
+    margin-top: 10px;
+}
+.font-size14 {
+    font-size: 14px;
+}
+.text-light-gray {
+    color: #d6d5d5;
+}
+.font-size13 {
+    font-size: 13px;
+}
+.table-bordered td, .table-bordered th {
+    border: 1px solid #dee2e6;
+}
+.table td, .table th {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+.class-schedule {
+    margin-left: 80px;
+}
+
+/* ------------------------------------------------- Contact Us Page ----*/
+
+.contact-us {
+    color: #310b25;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.contact-us a i {
+    width: 45px;
+    height: 45px;
+    padding: 16PX 0;
+    border-radius: 50%;
+    font-size: 26px;
+    line-height: 14px;
+    text-align: center;
+    color: #fff;
+    background: #401d35;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+© 2022 GitHub, Inc.
+Terms
